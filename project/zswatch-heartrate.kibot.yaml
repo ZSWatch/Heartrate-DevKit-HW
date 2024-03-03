@@ -2,13 +2,9 @@ kibot:
   version: 1
 
 variants:
-  - name: "Watch"
-    comment: "Regular Watch PCB"
+  - name: "Full"
+    comment: "Full PCB"
     type: kibom
-  - name: "Sensor"
-    comment: "Reduced Watch PCB for sensing applications"
-    type: kibom
-    variant: Env
 
 global:
   out_dir: "../production/Export-%D"
@@ -102,12 +98,6 @@ outputs:
       - layer: F.Cu
         suffix: F_Cu
         description: Front copper
-      - layer: Inner1
-        suffix: Layer1
-        description: 'Inner cooper layer'
-      - layer: Inner2
-        suffix: Layer2
-        description: 'Inner copper layer'
       - layer: B.Cu
         suffix: B_Cu
         description: Bottom copper
