@@ -98,6 +98,12 @@ outputs:
       - layer: F.Cu
         suffix: F_Cu
         description: Front copper
+      - layer: Inner1
+        suffix: Inner1
+        description: 'Inner cooper layer'
+      - layer: Inner2
+        suffix: Inner2
+        description: 'Inner copper layer'
       - layer: B.Cu
         suffix: B_Cu
         description: Bottom copper
@@ -138,14 +144,25 @@ outputs:
         suffix: User_1
         description: User layer 1
 
-  - name: "Pick & Place"
-    comment: "Pick & Place"
+  - name: "Pick & Place (ASCII, Separate)"
+    comment: "Pick & Place with separate ASCII files. Useful for ordering at PCBWay."
     type: position
     dir: centroid
     category: "production"
     options:
       format: ASCII
       only_smd: false
+      separate_files_for_front_and_back: true
+
+  - name: "Pick & Place (CSV, Single)"
+    comment: "Pick & Place with a single CSV file. Useful for ordering at JLCPCB."
+    type: position
+    dir: centroid
+    category: "production"
+    options:
+      format: CSV
+      only_smd: false
+      separate_files_for_front_and_back: false
 
   - name: "PCB Specifications"
     comment: "PCB Specifications"
@@ -210,9 +227,9 @@ outputs:
           name: Ref Des
         - field: Build Quantity
           name: Quantity
-        - field: Mfr.
+        - field: manf
           name: Manufacturer
-        - field: Mfr. No.
+        - field: manf#
           name: Mfg Part#
         - field: Value
           name: Description / Value
@@ -222,10 +239,19 @@ outputs:
           name: Type
         - field: Footprint Side
           name: Side
+      distributors:
+        - Mouser
       xlsx:
+        kicost: true
+        specs: true
+        kicost_config: kicost_config.yaml
+        kicost_api_disable:
+          # Don't use KitSpace, we have keys
+          - KitSpace
         title: "%f BOM"
         hide_stats_info: false
         quote_all: true
+        logo_scale: 0.5
 
   - name: "ZIP Gerber"
     comment: "ZIP Gerber"
@@ -261,6 +287,7 @@ outputs:
     dir: docs/images
     category: "documentation"
     options:
+      zoom: -2
       ray_tracing: true
       rotate_x: 3
       rotate_z: -2
