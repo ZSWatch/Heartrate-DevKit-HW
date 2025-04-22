@@ -26328,7 +26328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm"
+		(property "Footprint" "Analog Devices:MAX32664GTG"
 			(at 193.04 135.89 0)
 			(effects
 				(font
@@ -26337,7 +26337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX32664.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/609/MAX32664-3469756.pdf"
 			(at 193.04 135.89 0)
 			(effects
 				(font
@@ -26364,7 +26364,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "Analog Devices / Maxim Integrated"
 			(at 193.04 135.89 0)
 			(effects
 				(font
@@ -26373,7 +26373,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "MAX32664GWEC+ "
+		(property "manf#" "MAX32664GTGC+"
 			(at 193.04 135.89 0)
 			(effects
 				(font
@@ -26382,7 +26382,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "700-MAX32664GTGC+"
 			(at 193.04 135.89 0)
 			(effects
 				(font
