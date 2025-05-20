@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "ZSWatch Heart Rate Dev-Board")
-		(date "2025-04-18")
-		(rev "2")
+		(date "2025-05-20")
+		(rev "3")
 		(company "github.com/...")
 	)
 	(lib_symbols
@@ -6980,6 +6980,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 30.48) (xy 355.6 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181bb2c9-b000-41ab-883e-f5a736c4ff2b")
+	)
+	(wire
+		(pts
 			(xy 214.63 113.03) (xy 214.63 114.3)
 		)
 		(stroke
@@ -8657,16 +8667,6 @@
 			(type default)
 		)
 		(uuid "a750e3db-63c7-482f-9dc4-15d8d819a861")
-	)
-	(wire
-		(pts
-			(xy 355.6 29.21) (xy 355.6 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7a38e06-c832-4e9e-8338-cc31bad9cd4e")
 	)
 	(wire
 		(pts
@@ -16853,13 +16853,13 @@
 		(uuid "731b54db-6e52-4a08-8ca2-c3505f082ea6")
 	)
 	(label "V_{BAT}"
-		(at 355.6 29.21 90)
+		(at 353.06 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7adac05a-bb9c-4c7c-8f84-93f1794cf276")
 	)

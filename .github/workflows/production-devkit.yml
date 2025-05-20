@@ -1,4 +1,4 @@
-name: Build
+name: Production-DevKit
 
 on:
   workflow_dispatch:
@@ -21,7 +21,6 @@ jobs:
         include:
           - device_type: Full
             NewImage: 1
-
 
     steps:
       - name: Checkout
@@ -53,7 +52,7 @@ jobs:
 
       - name: Generate files
         run: |
-          cd project
+          cd dev-kit
           kibot -vvvv -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }} 2> ../log/kibot.log
           mkdir ../production/${{ matrix.device_type }}/ordering
 
