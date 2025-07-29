@@ -6084,6 +6084,305 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:BSS138"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS138"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSS138_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSS138_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
@@ -6188,131 +6487,6 @@
 				)
 			)
 			(symbol "+1V8_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+BATT"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+BATT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+BATT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+BATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -7271,6 +7445,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 200.66) (xy 152.4 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b69b93-2e4c-49c8-a8ad-78ba2a76dc11")
+	)
+	(wire
+		(pts
 			(xy 248.92 38.1) (xy 246.38 38.1)
 		)
 		(stroke
@@ -7308,6 +7492,16 @@
 			(type default)
 		)
 		(uuid "29519194-c41e-4e41-84ff-d0832e7365f9")
+	)
+	(wire
+		(pts
+			(xy 160.02 205.74) (xy 160.02 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29586dd5-cbb5-4c8a-9da5-9b0af542acf6")
 	)
 	(wire
 		(pts
@@ -7361,7 +7555,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 205.74) (xy 124.46 207.01)
+			(xy 160.02 185.42) (xy 160.02 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7828,6 +8022,16 @@
 			(type default)
 		)
 		(uuid "59685694-d4f4-4cd0-b3f3-34b76f55de61")
+	)
+	(wire
+		(pts
+			(xy 124.46 200.66) (xy 124.46 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f7be91-070f-4e25-aa4f-785e2acd7a02")
 	)
 	(wire
 		(pts
@@ -8781,6 +8985,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 194.31) (xy 160.02 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61fec4a-8a5a-4a54-9706-260e338494bc")
+	)
+	(wire
+		(pts
 			(xy 146.05 128.27) (xy 156.21 128.27)
 		)
 		(stroke
@@ -9001,7 +9215,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 195.58) (xy 124.46 198.12)
+			(xy 160.02 175.26) (xy 160.02 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9238,16 +9452,6 @@
 			(type default)
 		)
 		(uuid "d9f98199-6203-44e7-a1c6-a90c06ace9d5")
-	)
-	(wire
-		(pts
-			(xy 124.46 214.63) (xy 124.46 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db31c5f8-e072-4082-8af1-0a9fcdcc455c")
 	)
 	(wire
 		(pts
@@ -17036,6 +17240,16 @@
 		(uuid "decaaabc-d55e-454c-b86e-1466c459da13")
 	)
 	(label "V_{BAT}"
+		(at 160.02 175.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e286b3e8-1e93-4541-9a43-1d8e64fa20fe")
+	)
+	(label "V_{BAT}"
 		(at 306.07 33.02 0)
 		(effects
 			(font
@@ -17608,72 +17822,6 @@
 			(project "ZSWatch-HeartRate"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
 					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 124.46 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d34a546-59d0-4e35-a5c4-768a4c255e07")
-		(property "Reference" "#PWR0101"
-			(at 124.46 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 124.46 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 124.46 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2682679a-521d-4528-ad69-f4585240ae93")
-		)
-		(instances
-			(project "ZSWatch-HeartRate"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -21664,7 +21812,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 201.93 0)
+		(at 160.02 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21673,7 +21821,7 @@
 		(fields_autoplaced yes)
 		(uuid "848e5290-5437-4bff-9a5f-b04502ba8281")
 		(property "Reference" "R105"
-			(at 127 200.6599 0)
+			(at 162.56 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21682,7 +21830,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 127 203.1999 0)
+			(at 162.56 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21691,7 +21839,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 122.682 201.93 90)
+			(at 158.242 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21700,7 +21848,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf"
-			(at 124.46 201.93 0)
+			(at 160.02 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21709,7 +21857,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 201.93 0)
+			(at 160.02 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21718,7 +21866,7 @@
 			)
 		)
 		(property "manf" "Bourns"
-			(at 124.46 201.93 0)
+			(at 160.02 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21727,7 +21875,7 @@
 			)
 		)
 		(property "manf#" "CR0402-JW-221GLF"
-			(at 124.46 201.93 0)
+			(at 160.02 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21736,7 +21884,7 @@
 			)
 		)
 		(property "mouser#" "652-CR0402-JW-221GLF"
-			(at 124.46 201.93 0)
+			(at 160.02 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21745,7 +21893,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 124.46 201.93 0)
+			(at 160.02 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23645,7 +23793,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 124.46 210.82 90)
+		(at 160.02 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23654,7 +23802,7 @@
 		(fields_autoplaced yes)
 		(uuid "a26712f0-b13e-49d9-bce3-58268e2a70f4")
 		(property "Reference" "D107"
-			(at 128.27 211.1374 90)
+			(at 163.83 190.8174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23663,7 +23811,7 @@
 			)
 		)
 		(property "Value" "STATUS"
-			(at 128.27 213.6774 90)
+			(at 163.83 193.3574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23672,7 +23820,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 124.46 210.82 0)
+			(at 160.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23681,7 +23829,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/678/hsmq_c170_t0000_ds100-2498198.pdf"
-			(at 124.46 210.82 0)
+			(at 160.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23690,7 +23838,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 124.46 210.82 0)
+			(at 160.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23699,7 +23847,7 @@
 			)
 		)
 		(property "manf" "Broadcom / Avago"
-			(at 124.46 210.82 0)
+			(at 160.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23708,7 +23856,7 @@
 			)
 		)
 		(property "manf#" "HSMQ-C170-T0000"
-			(at 124.46 210.82 0)
+			(at 160.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23717,7 +23865,7 @@
 			)
 		)
 		(property "mouser#" "630-HSMQ-C170-T0000"
-			(at 124.46 210.82 0)
+			(at 160.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23726,7 +23874,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 124.46 210.82 0)
+			(at 160.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24608,6 +24756,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 160.02 210.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf3f2874-d92c-4ca5-b6dd-2db77ccc7d43")
+		(property "Reference" "#PWR0152"
+			(at 160.02 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfe5fc01-e269-4e72-b07a-75ca1385fdc1")
+		)
+		(instances
+			(project "ZSWatch-HeartRate"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 227.33 175.26 0)
 		(mirror y)
 		(unit 1)
@@ -24840,6 +25054,109 @@
 			(project "ZSWatch-HeartRate"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
 					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 157.48 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9853cfe-70ce-4ccc-9b9d-f0aad878e585")
+		(property "Reference" "Q101"
+			(at 163.83 199.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 163.83 201.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 162.56 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 162.56 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "onsemi / Fairchild"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "BSS138"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "512-BSS138"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cabff23b-5b72-4825-946a-7aa3a42df04b")
+		)
+		(pin "1"
+			(uuid "e33f6e25-46e6-4fc3-8985-b9a69bb10569")
+		)
+		(pin "2"
+			(uuid "f8c25984-b8ec-4fc8-95d5-fec0ba72f675")
+		)
+		(instances
+			(project ""
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
+					(reference "Q101")
 					(unit 1)
 				)
 			)
