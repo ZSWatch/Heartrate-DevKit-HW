@@ -17490,7 +17490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?28773"
 			(at 128.27 232.41 0)
 			(effects
 				(font
@@ -17517,7 +17517,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "Vishay"
 			(at 128.27 232.41 0)
 			(effects
 				(font
@@ -17526,7 +17526,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "CRCW08050000Z0EBC"
 			(at 128.27 232.41 0)
 			(effects
 				(font
@@ -17535,7 +17535,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "71-CRCW08050000Z0EBC"
 			(at 128.27 232.41 0)
 			(effects
 				(font
@@ -18207,7 +18207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -18234,7 +18234,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "KYOCERA AVX"
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -18243,7 +18243,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "04023D105KAT2A"
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -18252,7 +18252,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "581-04023D105KAT2A"
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -18511,7 +18511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -18538,7 +18538,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "KYOCERA AVX"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -18547,7 +18547,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "04023D105KAT2A"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -18556,7 +18556,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "581-04023D105KAT2A"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -18682,7 +18682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/430182095816.pdf"
 			(at 139.7 224.79 0)
 			(effects
 				(font
@@ -18860,7 +18860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -18887,7 +18887,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "KYOCERA AVX"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -18896,7 +18896,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "04023D105KAT2A"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -18905,7 +18905,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "581-04023D105KAT2A"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -21478,7 +21478,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "GCT"
 			(at 185.42 48.26 0)
 			(effects
 				(font
@@ -21487,7 +21487,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "USB4105-GF-A-120"
 			(at 185.42 48.26 0)
 			(effects
 				(font
@@ -21496,7 +21496,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "640-USB4105-GF-A-120"
 			(at 185.42 48.26 0)
 			(effects
 				(font
@@ -22444,7 +22444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
 			(at 285.75 96.52 0)
 			(effects
 				(font
@@ -22471,7 +22471,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "KYOCERA AVX"
 			(at 285.75 96.52 0)
 			(effects
 				(font
@@ -22480,7 +22480,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "04023D105KAT2A"
 			(at 285.75 96.52 0)
 			(effects
 				(font
@@ -22489,7 +22489,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "581-04023D105KAT2A"
 			(at 285.75 96.52 0)
 			(effects
 				(font
@@ -24135,7 +24135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1005_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/3/ASMCI_0603-3318216.pdf"
 			(at 379.73 20.32 0)
 			(effects
 				(font
@@ -24155,6 +24155,33 @@
 		)
 		(property "CONFIG" ""
 			(at 379.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "ABRACON"
+			(at 379.73 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "ASMCI-0603-1R0M-T"
+			(at 379.73 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "815-ASMCI-0603-1R0MT"
+			(at 379.73 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24213,7 +24240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/915/BM15C_2bProduct_2bSpecifications-3555318.pdf"
 			(at 63.754 171.196 0)
 			(effects
 				(font
@@ -24679,7 +24706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/430182095816.pdf"
 			(at 35.56 185.42 0)
 			(effects
 				(font
@@ -27003,7 +27030,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "STMicroelectronics"
 			(at 297.18 213.36 0)
 			(effects
 				(font
@@ -27012,7 +27039,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "LIS2DS12"
 			(at 297.18 213.36 0)
 			(effects
 				(font
@@ -27021,7 +27048,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "511-LIS2DS12"
 			(at 297.18 213.36 0)
 			(effects
 				(font
