@@ -479,7 +479,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -494,24 +494,6 @@
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "BGA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -521,31 +503,31 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "BGA",
+        "netclass": "Default",
         "pattern": "Net-(IC105-GPIO1)"
       },
       {
-        "netclass": "BGA",
+        "netclass": "Default",
         "pattern": "Net-(IC105-GPIO2)"
       },
       {
-        "netclass": "BGA",
+        "netclass": "Default",
         "pattern": "Net-(IC103-INT_{PPG})"
       },
       {
-        "netclass": "BGA",
+        "netclass": "Default",
         "pattern": "Net-(D106-K)"
       },
       {
-        "netclass": "BGA",
+        "netclass": "Default",
         "pattern": "Net-(IC105-VREF)"
       },
       {
-        "netclass": "BGA",
+        "netclass": "Default",
         "pattern": "Net-(IC101-SCLK/SCL)"
       },
       {
-        "netclass": "BGA",
+        "netclass": "Default",
         "pattern": "/SCL"
       }
     ]
@@ -603,7 +585,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -627,7 +609,7 @@
           "group_by": false,
           "label": "CONFIG",
           "name": "CONFIG",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -652,6 +634,12 @@
           "label": "mouser#",
           "name": "mouser#",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
