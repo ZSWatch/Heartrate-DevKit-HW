@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm"
+			(property "Footprint" "Analog Devices:MAX32664GTG"
 				(at 0 0 0)
 				(effects
 					(font
@@ -252,7 +252,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 16.51 11.43 180)
 					(length 2.54)
 					(name "INT_{PPG}"
@@ -601,7 +601,7 @@
 				(pin power_in line
 					(at -3.81 16.51 270)
 					(length 2.54)
-					(name "VREF"
+					(name "V_{REF}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -727,7 +727,7 @@
 				(pin output line
 					(at 19.05 6.35 180)
 					(length 2.54)
-					(name "LED1_DRV"
+					(name "LED1-DRV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -745,7 +745,7 @@
 				(pin output line
 					(at 19.05 3.81 180)
 					(length 2.54)
-					(name "LED2_DRV"
+					(name "LED2-DRV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -763,7 +763,7 @@
 				(pin output line
 					(at 19.05 1.27 180)
 					(length 2.54)
-					(name "LED3_DRV"
+					(name "LED3-DRV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -778,10 +778,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -2.54 180)
 					(length 2.54)
-					(name "PD_GND"
+					(name "PD-GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -799,7 +799,7 @@
 				(pin input line
 					(at 19.05 -6.35 180)
 					(length 2.54)
-					(name "PD1_IN"
+					(name "PD1-IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -817,26 +817,7 @@
 				(pin input line
 					(at 19.05 -8.89 180)
 					(length 2.54)
-					(name "PD2_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 19.05 -12.7 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "PD2-IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1315,7 +1296,7 @@
 				(pin output line
 					(at 12.7 2.54 180)
 					(length 2.54)
-					(name "SWDCLK/TCK"
+					(name "SWCLK/TCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3471,6 +3452,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -3727,21 +3717,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -4906,7 +4894,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Osram:SFH7016"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6148,7 +6136,6 @@
 		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -6364,7 +6351,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -6772,6 +6759,28 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "The hub firmware uses\n- LED1 for Green\n- LED2 for IR\n- LED3 for red"
+		(exclude_from_sim no)
+		(at 340.995 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "553eee1e-d29f-47e5-b544-df4fafe2b084")
+	)
+	(text "NOTE: Only this pins are working for I2C!"
+		(exclude_from_sim no)
+		(at 120.65 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b1d79764-c17c-49b1-9a51-79119424378a")
 	)
 	(text "Layout guidelines for MAX8614x:\n- Connect all GNDs to a single ground plane and use one single via to PCB ground\n- Use different vias for all decoupling caps\n- PD_IN must be shielded by PD_GND\n- PD_GND on the layer where the MAX8614x is mounted, PG_IN under PD_GND\n- No traces over or under PD_GND"
 		(exclude_from_sim no)
@@ -10358,7 +10367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
 			(at 273.05 241.3 0)
 			(effects
 				(font
@@ -10815,7 +10824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 91.44 160.02 0)
 			(effects
 				(font
@@ -10928,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 273.05 274.32 0)
 			(effects
 				(font
@@ -10986,7 +10995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r-2835979.pdf"
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -11290,7 +11299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r-2835979.pdf"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -11639,7 +11648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r-2835979.pdf"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -12200,7 +12209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Two pin crystal"
 			(at 168.91 148.59 0)
 			(effects
 				(font
@@ -12769,7 +12778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 391.16 231.14 0)
 			(effects
 				(font
@@ -13134,9 +13143,6 @@
 		)
 		(pin "D4"
 			(uuid "d61566b4-b0cf-4edb-a4f0-75a026e51f72")
-		)
-		(pin "D4"
-			(uuid "76155cd8-cb6e-4036-88da-1df2adeb1386")
 		)
 		(pin "A5"
 			(uuid "5826b77a-5862-4765-9b9d-6937c99706ef")
@@ -13549,7 +13555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/268/MIC5365_6_High_Performance_Single_150mA_LDO_DS2000-3442271.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf"
 			(at 377.19 72.39 0)
 			(effects
 				(font
@@ -13730,7 +13736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 299.72 96.52 0)
 			(effects
 				(font
@@ -13967,7 +13973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 391.16 234.95 0)
 			(effects
 				(font
@@ -14081,7 +14087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 297.18 228.6 0)
 			(effects
 				(font
@@ -14593,7 +14599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 87.63 251.46 0)
 			(effects
 				(font
@@ -15143,7 +15149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r-2835979.pdf"
 			(at 285.75 96.52 0)
 			(effects
 				(font
@@ -15315,7 +15321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/781710002?display=pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/781710002?display=pdf"
 			(at 298.45 22.86 0)
 			(effects
 				(font
@@ -15429,7 +15435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
 			(at 297.18 182.88 0)
 			(effects
 				(font
@@ -16227,7 +16233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 302.26 187.96 0)
 			(effects
 				(font
@@ -16341,7 +16347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
 			(at 273.05 257.81 0)
 			(effects
 				(font
@@ -16574,6 +16580,15 @@
 			)
 		)
 		(property "CONFIG" ""
+			(at 43.18 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 43.18 224.79 0)
 			(effects
 				(font
@@ -18201,7 +18216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 289.56 187.96 0)
 			(effects
 				(font
@@ -18864,7 +18879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r-2835979.pdf"
 			(at 355.6 40.64 0)
 			(effects
 				(font
@@ -18978,7 +18993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 317.5 228.6 0)
 			(effects
 				(font
@@ -19307,7 +19322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/609/MAX32664-3469756.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX32664.pdf"
 			(at 193.04 135.89 0)
 			(effects
 				(font
