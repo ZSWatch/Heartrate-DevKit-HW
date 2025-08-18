@@ -10700,7 +10700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vishay:VEMD8080"
+		(property "Footprint" "Vishay:VEMD808x"
 			(at 318.77 132.08 0)
 			(effects
 				(font
@@ -10709,7 +10709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?84565"
+		(property "Datasheet" "https://www.vishay.com/docs/80381/vemd8082.pdf"
 			(at 318.77 132.08 0)
 			(effects
 				(font
@@ -10736,7 +10736,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "VEMD8080"
+		(property "manf#" "VEMD8082"
 			(at 320.04 132.08 0)
 			(effects
 				(font
@@ -10745,7 +10745,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "78-VEMD8080"
+		(property "mouser#" "78-VEMD8082"
 			(at 320.04 132.08 0)
 			(effects
 				(font
@@ -15880,7 +15880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vishay:VEMD8080"
+		(property "Footprint" "Vishay:VEMD808x"
 			(at 318.77 128.27 0)
 			(effects
 				(font
@@ -15889,7 +15889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?84565"
+		(property "Datasheet" "https://www.vishay.com/docs/80381/vemd8082.pdf"
 			(at 318.77 128.27 0)
 			(effects
 				(font
@@ -15916,7 +15916,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "VEMD8080"
+		(property "manf#" "VEMD8082"
 			(at 320.04 128.27 0)
 			(effects
 				(font
@@ -15925,7 +15925,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "78-VEMD8080"
+		(property "mouser#" "78-VEMD8082"
 			(at 320.04 128.27 0)
 			(effects
 				(font

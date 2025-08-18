@@ -13736,7 +13736,7 @@
 			)
 		)
 	)
-	(footprint "Vishay:VEMD8080"
+	(footprint "Vishay:VEMD808x"
 		(layer "B.Cu")
 		(uuid "5e5cf789-fc6e-4719-8ece-1f3ed82a1945")
 		(at 166.5 102.7 -90)
@@ -13744,7 +13744,6 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(hide yes)
 			(uuid "b9af0e80-ba1e-43c5-836f-c910c9a3cb27")
 			(effects
 				(font
@@ -13758,7 +13757,6 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "a6eb2916-71c8-4b22-abe1-f5016802ef70")
 			(effects
 				(font
@@ -13768,7 +13766,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?84565"
+		(property "Datasheet" "https://www.vishay.com/docs/80381/vemd8082.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13801,7 +13799,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0ac8528a-81d5-4d8a-a553-9a1d6631c75c")
+			(uuid "ce2e89b3-cb8b-459e-b325-df2e9659105a")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13810,12 +13808,12 @@
 				(justify mirror)
 			)
 		)
-		(property "manf#" "VEMD8080"
+		(property "manf#" "VEMD8082"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ffc238f7-6db1-4351-8d65-560a8d200e36")
+			(uuid "333d101b-97b1-4c09-9127-f3361aac4128")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13824,12 +13822,12 @@
 				(justify mirror)
 			)
 		)
-		(property "mouser#" "78-VEMD8080"
+		(property "mouser#" "78-VEMD8082"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "352973b4-cb2d-4373-a559-d74c1d4fff36")
+			(uuid "25c214b1-8ab3-4ae5-838b-6d65ed5c40c8")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13843,7 +13841,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dd5c93e3-00a4-45f5-a9e0-3cb31d11b077")
+			(uuid "f5cca59a-e63d-4fb4-a2cb-731489d18b25")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13865,7 +13863,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "ffae5845-0961-4d18-a154-55eb5a9e145e")
+			(uuid "12001149-cb78-4136-860b-348a2ae86bcd")
 		)
 		(fp_rect
 			(start -2.4 1.25)
@@ -13876,7 +13874,7 @@
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "888a4c35-19cb-456e-a5ef-441942622274")
+			(uuid "a3d0b12a-1317-47f0-9000-1b095d12a23e")
 		)
 		(fp_circle
 			(center -2 -0.7)
@@ -13887,7 +13885,7 @@
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "62762706-e655-4592-9cd2-d63fc719ba89")
+			(uuid "44bec392-a406-4f8d-9401-c3b13781b14b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -13920,7 +13918,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "e735660f-13fe-4a40-907b-b0086486c0d4")
+			(uuid "1be66aeb-e81a-4c0e-ba81-0cff4bd59b69")
 		)
 		(pad "1" smd rect
 			(at -0.69 -1.19 270)
@@ -13930,7 +13928,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "b5917ff5-2e0f-47b7-95e6-300f9a2d0d09")
+			(uuid "1be66aeb-e81a-4c0e-ba81-0cff4bd59b69")
 		)
 		(pad "1" smd rect
 			(at -0.69 1.19 270)
@@ -13940,7 +13938,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "52d19f83-1e54-43fe-92cb-acb00d68c5d8")
+			(uuid "1be66aeb-e81a-4c0e-ba81-0cff4bd59b69")
 		)
 		(pad "1" smd rect
 			(at 0.69 -1.19 270)
@@ -13950,7 +13948,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "9f1dd0f5-1836-4e8a-abf6-a993ee553818")
+			(uuid "1be66aeb-e81a-4c0e-ba81-0cff4bd59b69")
 		)
 		(pad "1" smd rect
 			(at 0.69 1.19 270)
@@ -13960,7 +13958,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "f992b199-b561-455e-a260-31f0b2ebfdb8")
+			(uuid "1be66aeb-e81a-4c0e-ba81-0cff4bd59b69")
 		)
 		(pad "1" smd rect
 			(at 2 -1.19 270)
@@ -13970,7 +13968,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "4adf313f-aea5-4108-bf0c-19bd1469f413")
+			(uuid "1be66aeb-e81a-4c0e-ba81-0cff4bd59b69")
 		)
 		(pad "2" smd rect
 			(at 2 1.19 270)
@@ -14519,7 +14517,7 @@
 			)
 		)
 	)
-	(footprint "Vishay:VEMD8080"
+	(footprint "Vishay:VEMD808x"
 		(layer "B.Cu")
 		(uuid "9aa32588-4744-47d8-918d-ce8ccb57de56")
 		(at 160.9 102.7 -90)
@@ -14527,7 +14525,6 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(hide yes)
 			(uuid "17eac083-b111-4bab-a9a7-768d3c60199a")
 			(effects
 				(font
@@ -14541,7 +14538,6 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "29145ad4-e916-44eb-918d-82f7bf2a1c8b")
 			(effects
 				(font
@@ -14551,7 +14547,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?84565"
+		(property "Datasheet" "https://www.vishay.com/docs/80381/vemd8082.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14580,11 +14576,11 @@
 			)
 		)
 		(property "manf" "Vishay Semiconductors"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f208ed3f-6440-4e0b-9705-d541bad00259")
+			(uuid "26d63ebf-9923-4a45-9880-759132be8936")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14593,12 +14589,12 @@
 				(justify mirror)
 			)
 		)
-		(property "manf#" "VEMD8080"
-			(at 0 0 90)
+		(property "manf#" "VEMD8082"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aaf309cc-ac6a-4660-a54b-29cb7b1102b9")
+			(uuid "1a56e67b-3eb0-4e07-a05f-9a4bdbd7e5ae")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14607,12 +14603,12 @@
 				(justify mirror)
 			)
 		)
-		(property "mouser#" "78-VEMD8080"
-			(at 0 0 90)
+		(property "mouser#" "78-VEMD8082"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "86ff68e2-a542-4e79-8e23-f03ffbe20d18")
+			(uuid "08ac1756-c260-49ed-ae8a-80f271b91721")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14622,11 +14618,11 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1444ca29-ddc6-42b5-8f09-c63f120e1698")
+			(uuid "5485b84e-985a-4725-8858-1b4f7c39a089")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14648,7 +14644,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "53407fad-b334-495e-a925-4251bf19160a")
+			(uuid "544d8a8f-aaf7-4390-a6a2-726b31d476bc")
 		)
 		(fp_rect
 			(start -2.4 1.25)
@@ -14659,7 +14655,7 @@
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "1bcb95f5-f434-4d07-aaca-5ce860c2f3f7")
+			(uuid "b8234f8e-1e21-4d99-800d-66b9ec6e84c5")
 		)
 		(fp_circle
 			(center -2 -0.7)
@@ -14670,7 +14666,7 @@
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "7ff0c23d-16f6-447a-a0b7-f54e223ccfe9")
+			(uuid "903c4e36-d751-4e39-80c0-d8f7ea0a536b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -14703,7 +14699,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a899c37c-5829-4e3a-8028-2181ba21ba83")
+			(uuid "c9ec0955-18c9-4bae-a343-ec6956c85887")
 		)
 		(pad "1" smd rect
 			(at -0.69 -1.19 270)
@@ -14713,7 +14709,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "e81f0072-a9ba-4d0d-949a-ec09c72e067b")
+			(uuid "c9ec0955-18c9-4bae-a343-ec6956c85887")
 		)
 		(pad "1" smd rect
 			(at -0.69 1.19 270)
@@ -14723,7 +14719,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "e3d71aae-85ad-400e-af69-4df7762bc997")
+			(uuid "c9ec0955-18c9-4bae-a343-ec6956c85887")
 		)
 		(pad "1" smd rect
 			(at 0.69 -1.19 270)
@@ -14733,7 +14729,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "980ebd9a-8d0e-4cf8-8cfc-aa7cfe051098")
+			(uuid "c9ec0955-18c9-4bae-a343-ec6956c85887")
 		)
 		(pad "1" smd rect
 			(at 0.69 1.19 270)
@@ -14743,7 +14739,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "fdc87108-957a-402a-bbc5-63eb57d8ace9")
+			(uuid "c9ec0955-18c9-4bae-a343-ec6956c85887")
 		)
 		(pad "1" smd rect
 			(at 2 -1.19 270)
@@ -14753,7 +14749,7 @@
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "43c47250-8a26-471a-a110-fc2bfb751602")
+			(uuid "c9ec0955-18c9-4bae-a343-ec6956c85887")
 		)
 		(pad "2" smd rect
 			(at 2 1.19 270)
