@@ -7,7 +7,7 @@ jobs:
   generate:
     name: Generate production data
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+    container: ghcr.io/inti-cmnb/kicad9_auto_full:latest
 
     env:
       MOUSER_KEY: ${{ secrets.MOUSER_KEY }}
