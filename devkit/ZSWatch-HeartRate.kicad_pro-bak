@@ -37,9 +37,9 @@
         "other_text_thickness": 0.12,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.62,
-          "width": 0.56
+          "drill": 0.25,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -462,7 +462,6 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
-      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -548,7 +547,7 @@
     "page_layout_descr_file": "${KIPRJMOD}/Templates/KDT_Template_PCB_GIT_A3.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 100,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -730,7 +729,7 @@
     "RELEASE_DATE": "01-Sep-2025",
     "RELEASE_DATE_NUM": "2025-09-01",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
-    "REVISION": "$revision",
+    "REVISION": "DK_v1.3+ (Unreleased)",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
