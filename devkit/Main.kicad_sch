@@ -10635,7 +10635,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Photo"
+		(property "Value" "VEMD8082"
 			(at 340.6775 82.55 0)
 			(effects
 				(font
@@ -15857,7 +15857,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Photo"
+		(property "Value" "VEMD8082"
 			(at 340.6775 68.58 0)
 			(effects
 				(font
