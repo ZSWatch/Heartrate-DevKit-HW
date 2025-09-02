@@ -136,10 +136,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.0,
-        "min_via_diameter": 0.3,
+        "min_via_annular_width": 0.0762,
+        "min_via_diameter": 0.22762,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -226,7 +226,7 @@
         },
         {
           "diameter": 0.35,
-          "drill": 0.2
+          "drill": 0.15
         }
       ],
       "zones_allow_external_fillets": false
@@ -464,7 +464,7 @@
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
       "unit_value_mismatch": "error",
-      "unresolved_variable": "error",
+      "unresolved_variable": "warning",
       "wire_dangling": "error"
     }
   },
@@ -708,28 +708,26 @@
       "Main"
     ],
     [
-      "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
-      "Power - Sequencing"
-    ],
-    [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
       "Revision History"
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "",
+    "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)",
     "BOARD_NAME": "Heartrate-DevKit-HW",
     "COMPANY": "ZSWatch",
     "DESIGNER": "Daniel Kampert",
-    "FABRICATION_NOTES": "",
+    "FABRICATION_NOTES": "Empty",
     "GIT_HASH_PCB": "4ed5581",
     "GIT_HASH_SCH": "9639a43",
     "GIT_URL": "https://github.com/ZSWatch/Dock-HW",
     "PROJECT_NAME": "ZSWatch Heartrate-DevKit",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
+    "RELEASE_BODY_xyz": "..",
     "RELEASE_DATE": "01-Sep-2025",
     "RELEASE_DATE_NUM": "2025-09-01",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
+    "RELEASE_TITLE_xyz": "..",
     "REVISION": "$revision",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
@@ -766,8 +764,8 @@
     "SHEET_NAME_39": "......................................",
     "SHEET_NAME_4": "Main",
     "SHEET_NAME_40": "......................................",
-    "SHEET_NAME_5": "Power - Sequencing",
-    "SHEET_NAME_6": "Revision History",
+    "SHEET_NAME_5": "Revision History",
+    "SHEET_NAME_6": "......................................",
     "SHEET_NAME_7": "......................................",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
