@@ -3710,7 +3710,7 @@
 				(pin bidirectional line
 					(at -26.67 13.97 0)
 					(length 2.54)
-					(name "P1.03/NFC"
+					(name "P1.03/NFC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3728,7 +3728,7 @@
 				(pin bidirectional line
 					(at -26.67 11.43 0)
 					(length 2.54)
-					(name "P1.02/NFC"
+					(name "P1.02/NFC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3851,7 +3851,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 0 40.64 270)
 					(length 2.54)
 					(hide yes)
@@ -4601,7 +4601,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "OUT"
@@ -6525,6 +6525,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "The hub firmware uses\n- LED1 for Green\n- LED2 for IR\n- LED3 for red"
 		(exclude_from_sim no)
@@ -6694,6 +6795,12 @@
 		(uuid "495d7f3b-300a-4d3f-b7d7-4ba534b9316d")
 	)
 	(junction
+		(at 311.15 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59d639f9-7383-4fc4-80bb-862d744f9bae")
+	)
+	(junction
 		(at 321.31 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6730,10 +6837,28 @@
 		(uuid "7e12ceb2-3d0f-41ff-a2d6-f65aad6266f4")
 	)
 	(junction
+		(at 219.71 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "845f0db9-ed7d-4218-8b5e-66fb7acabe9c")
+	)
+	(junction
+		(at 100.33 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84684e24-f125-43cd-a9db-2a36d8e9a477")
+	)
+	(junction
 		(at 255.27 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "864d625a-e6e5-4e32-9b39-154fcb62f5ec")
+	)
+	(junction
+		(at 386.08 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "878ccd97-2d41-4696-84d6-9d97b791068f")
 	)
 	(junction
 		(at 257.81 91.44)
@@ -6764,12 +6889,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "974237b1-a833-4de0-9828-b27040efc395")
-	)
-	(junction
-		(at 213.36 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bdeba1f-4cf7-4b62-9b10-b2f850076f12")
 	)
 	(junction
 		(at 260.35 140.97)
@@ -7207,16 +7326,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 125.73) (xy 66.04 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1193e5d7-162d-4d93-8176-c90a527dd3d1")
-	)
-	(wire
-		(pts
 			(xy 58.42 36.83) (xy 60.96 36.83)
 		)
 		(stroke
@@ -7587,6 +7696,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 91.44) (xy 66.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3158cf96-9ab2-4fcb-b8f3-061c1fc94a73")
+	)
+	(wire
+		(pts
 			(xy 66.04 93.98) (xy 66.04 96.52)
 		)
 		(stroke
@@ -7614,6 +7733,16 @@
 			(type default)
 		)
 		(uuid "31854bfc-bb4e-4b2c-a4a3-6010a2c5346f")
+	)
+	(wire
+		(pts
+			(xy 386.08 223.52) (xy 386.08 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3435cef6-2e23-487e-8adb-b47b001efcc5")
 	)
 	(wire
 		(pts
@@ -7774,16 +7903,6 @@
 			(type default)
 		)
 		(uuid "3fea4324-ea65-4a1a-ba8d-146b6300a7da")
-	)
-	(wire
-		(pts
-			(xy 41.91 189.23) (xy 41.91 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4066e108-7909-4f45-9080-68de5b0db8a2")
 	)
 	(wire
 		(pts
@@ -8047,6 +8166,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 36.83) (xy 311.15 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a3749b-59eb-4127-bba8-2a05845f00ea")
+	)
+	(wire
+		(pts
 			(xy 26.67 201.93) (xy 26.67 205.74)
 		)
 		(stroke
@@ -8097,7 +8226,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 25.4) (xy 307.34 24.13)
+			(xy 303.53 25.4) (xy 303.53 24.13)
 		)
 		(stroke
 			(width 0)
@@ -8237,7 +8366,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 24.13) (xy 313.69 24.13)
+			(xy 303.53 24.13) (xy 313.69 24.13)
 		)
 		(stroke
 			(width 0)
@@ -8367,6 +8496,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 125.73) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77dc8eb9-c6dc-4bb5-9feb-42fe94540bd3")
+	)
+	(wire
+		(pts
 			(xy 231.14 140.97) (xy 260.35 140.97)
 		)
 		(stroke
@@ -8374,6 +8513,16 @@
 			(type default)
 		)
 		(uuid "79ad781e-824d-427e-b640-6d57963caf7e")
+	)
+	(wire
+		(pts
+			(xy 41.91 189.23) (xy 41.91 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afc6417-36a7-458d-a22b-e1104c8ec7ac")
 	)
 	(wire
 		(pts
@@ -8424,6 +8573,16 @@
 			(type default)
 		)
 		(uuid "7f06fced-c559-44a8-9042-0c3b8a79138b")
+	)
+	(wire
+		(pts
+			(xy 219.71 44.45) (xy 219.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9123a5-4ce1-4a65-9a1b-fc137fadbbb9")
 	)
 	(wire
 		(pts
@@ -8544,6 +8703,16 @@
 			(type default)
 		)
 		(uuid "84e6d006-da9d-4500-b887-e37346949a7f")
+	)
+	(wire
+		(pts
+			(xy 66.04 125.73) (xy 74.93 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866ee3dc-e2b1-4709-9bed-3910346c1893")
 	)
 	(wire
 		(pts
@@ -9027,7 +9196,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 30.48) (xy 307.34 31.75)
+			(xy 303.53 30.48) (xy 303.53 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9044,6 +9213,16 @@
 			(type default)
 		)
 		(uuid "adebca20-c284-4d2d-8e6d-73af5bb0878d")
+	)
+	(wire
+		(pts
+			(xy 100.33 24.13) (xy 100.33 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b6da54-aef5-49f3-aa70-bb6fd5e28c2a")
 	)
 	(wire
 		(pts
@@ -9144,6 +9323,16 @@
 			(type default)
 		)
 		(uuid "bff394cc-920d-491f-bbbc-31eaec925363")
+	)
+	(wire
+		(pts
+			(xy 58.42 125.73) (xy 66.04 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c253538b-2738-448d-aef1-75f7d6a861d9")
 	)
 	(wire
 		(pts
@@ -9317,7 +9506,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 44.45) (xy 213.36 45.72)
+			(xy 209.55 44.45) (xy 209.55 45.72)
 		)
 		(stroke
 			(width 0)
@@ -10399,6 +10588,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 386.08 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08be6d36-fea0-47ea-921b-0ef2bef660cf")
+		(property "Reference" "#FLG0405"
+			(at 386.08 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 386.08 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 386.08 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d09f369-875b-4d0d-a84a-617bafeba870")
+		)
+		(instances
+			(project "ZSWatch-HeartRate"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "#FLG0405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 386.08 234.95 0)
 		(unit 1)
@@ -10696,6 +10951,72 @@
 			(project "ZSWatch-HeartRate"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
 					(reference "C406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 66.04 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1028491f-5a0c-4597-a192-c1cb7edb876b")
+		(property "Reference" "#FLG0401"
+			(at 66.04 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7debab6f-b607-4344-ae01-846134645a2a")
+		)
+		(instances
+			(project ""
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "#FLG0401")
 					(unit 1)
 				)
 			)
@@ -11352,6 +11673,72 @@
 			(project "ZSWatch-HeartRate"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
 					(reference "SW402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 311.15 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "283b6751-8c9a-4bf3-9923-cec588b1bcff")
+		(property "Reference" "#FLG0404"
+			(at 311.15 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 311.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 311.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23b203e8-abce-4a29-b592-4f9a59aa5292")
+		)
+		(instances
+			(project "ZSWatch-HeartRate"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "#FLG0404")
 					(unit 1)
 				)
 			)
@@ -12091,7 +12478,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 307.34 27.94 0)
+		(at 303.53 27.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12100,7 +12487,7 @@
 		(dnp no)
 		(uuid "3cb99801-40be-4f5c-8c9d-47904a03653c")
 		(property "Reference" "C412"
-			(at 304.8 26.6762 0)
+			(at 300.99 26.6762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12109,7 +12496,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 304.8 29.2162 0)
+			(at 300.99 29.2162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12118,7 +12505,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 307.34 27.94 0)
+			(at 303.53 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12127,7 +12514,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf"
-			(at 307.34 27.94 0)
+			(at 303.53 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12136,7 +12523,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 307.34 27.94 0)
+			(at 303.53 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12145,7 +12532,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 307.34 27.94 0)
+			(at 303.53 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12154,7 +12541,7 @@
 			)
 		)
 		(property "manf" "TAIYO YUDEN"
-			(at 307.34 27.94 0)
+			(at 303.53 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,7 +12550,7 @@
 			)
 		)
 		(property "manf#" "AMK105CBJ106MV-F"
-			(at 307.34 27.94 0)
+			(at 303.53 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,7 +12559,7 @@
 			)
 		)
 		(property "mouser#" "963-AMK105CBJ106MV-F"
-			(at 307.34 27.94 0)
+			(at 303.53 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13017,7 +13404,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 307.34 31.75 0)
+		(at 303.53 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13025,7 +13412,7 @@
 		(dnp no)
 		(uuid "554d75d6-8ca2-45ee-8aac-fe7e20ea055f")
 		(property "Reference" "#PWR0436"
-			(at 307.34 38.1 0)
+			(at 303.53 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13034,7 +13421,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 307.34 36.83 0)
+			(at 303.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13042,7 +13429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 31.75 0)
+			(at 303.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13051,7 +13438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 31.75 0)
+			(at 303.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13060,7 +13447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 31.75 0)
+			(at 303.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13069,7 +13456,7 @@
 			)
 		)
 		(property "Mfr." ""
-			(at 307.34 31.75 0)
+			(at 303.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13078,7 +13465,7 @@
 			)
 		)
 		(property "Mfr. No." ""
-			(at 307.34 31.75 0)
+			(at 303.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13087,7 +13474,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 307.34 31.75 0)
+			(at 303.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13096,7 +13483,7 @@
 			)
 		)
 		(property "Order Number" ""
-			(at 307.34 31.75 0)
+			(at 303.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13105,7 +13492,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 307.34 31.75 0)
+			(at 303.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13114,7 +13501,7 @@
 			)
 		)
 		(property "manf" ""
-			(at 307.34 31.75 0)
+			(at 303.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13123,7 +13510,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 307.34 31.75 0)
+			(at 303.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13132,7 +13519,7 @@
 			)
 		)
 		(property "mouser#" ""
-			(at 307.34 31.75 0)
+			(at 303.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13466,6 +13853,72 @@
 			(project "ZSWatch-HeartRate"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
 					(reference "IC401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 100.33 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66650da0-a049-4fbb-9b4f-d2bc384ba1fc")
+		(property "Reference" "#FLG0402"
+			(at 100.33 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 100.33 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 100.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dd4a4e5-fac9-42e5-ad49-49eec65d0495")
+		)
+		(instances
+			(project "ZSWatch-HeartRate"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "#FLG0402")
 					(unit 1)
 				)
 			)
@@ -15067,7 +15520,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 213.36 44.45 0)
+		(at 209.55 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15076,7 +15529,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d443748-26ac-45b6-96e2-32cbaa77fb91")
 		(property "Reference" "#PWR0430"
-			(at 213.36 48.26 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15085,7 +15538,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 213.36 39.37 0)
+			(at 209.55 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15093,7 +15546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 44.45 0)
+			(at 209.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15102,7 +15555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 44.45 0)
+			(at 209.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15111,7 +15564,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 213.36 44.45 0)
+			(at 209.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15236,6 +15689,72 @@
 			(project "ZSWatch-HeartRate"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
 					(reference "X402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 74.93 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96fc9149-e7ae-4ba8-84c3-39491a5bc855")
+		(property "Reference" "#FLG0403"
+			(at 74.93 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 74.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 74.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e72e97c-cd71-496c-9d6c-b2e107e4abe6")
+		)
+		(instances
+			(project "ZSWatch-HeartRate"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "#FLG0403")
 					(unit 1)
 				)
 			)
@@ -19018,6 +19537,72 @@
 			(project "ZSWatch-HeartRate"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
 					(reference "#PWR0439")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 219.71 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f51065bb-ca45-4d79-a6be-bf3473cb5a38")
+		(property "Reference" "#FLG0406"
+			(at 219.71 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 219.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa894f43-a9e4-4b68-b10b-6bbf76ba242f")
+		)
+		(instances
+			(project "ZSWatch-HeartRate"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "#FLG0406")
 					(unit 1)
 				)
 			)
