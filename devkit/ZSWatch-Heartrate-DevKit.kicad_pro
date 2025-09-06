@@ -713,22 +713,24 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)",
+    "ASSEMBLY_NOTES": "",
     "BOARD_NAME": "Heartrate-DevKit-HW",
     "COMPANY": "ZSWatch",
     "DESIGNER": "Daniel Kampert",
-    "FABRICATION_NOTES": "Empty",
-    "GIT_HASH_PCB": "4ed5581",
-    "GIT_HASH_SCH": "9639a43",
-    "GIT_URL": "https://github.com/ZSWatch/Dock-HW",
+    "FABRICATION_NOTES": "",
+    "GIT_HASH_PCB": "10ac9d5",
+    "GIT_HASH_SCH": "10ac9d5",
+    "GIT_URL": "https://github.com/ZSWatch/Heartrate-DevKit-HW",
     "PROJECT_NAME": "ZSWatch Heartrate-DevKit",
+    "RELEASE_BODY_1.3.0": "___________________________________\n\nFixed\n\n-   Fix wrong status LED\n\n-   Fix wrong I2C pins\n\n___________________________________\n\nAdded\n\n-   Add MFIO signal to SPI header\n\n-   New KiBot template\n\n-   Add second photo diode\n\n___________________________________\n\nChanged\n\n-   Replace VEMD8080 with VEMD8082\n\n-   Replace single LEDs with tripple color LED\n\n-   Move SWD connector away from battery connector",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
     "RELEASE_BODY_xyz": "..",
-    "RELEASE_DATE": "01-Sep-2025",
-    "RELEASE_DATE_NUM": "2025-09-01",
+    "RELEASE_DATE": "06-Sep-2025",
+    "RELEASE_DATE_NUM": "2025-09-06",
+    "RELEASE_TITLE_1.3.0": "Version 1.3.0 - 2025-09-06",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
     "RELEASE_TITLE_xyz": "..",
-    "REVISION": "$revision",
+    "REVISION": "",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
@@ -769,6 +771,6 @@
     "SHEET_NAME_7": "......................................",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "PRELIMINARY"
+    "VARIANT": "RELEASED"
   }
 }
