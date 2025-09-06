@@ -1,0 +1,109 @@
+ERC report (2025-09-06T09:54:03+0000, Encoding UTF8)
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_BGA_Kampi'.
+    ; warning
+    @(0.508 mm, 0.9398 mm): Symbol IC402 [TPS61240-BGA]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Texas Instruments'
+    ; warning
+    @(0.508 mm, 0.9398 mm): Symbol IC402 [TPS61240-BGA]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Microchip_Kampi'
+    ; warning
+    @(0.4826 mm, 1.3081 mm): Symbol IC401 [MIC5365]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Molex'.
+    ; warning
+    @(1.397 mm, 0.2159 mm): Symbol X402 [Conn_01x02]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Crystal_Kampi'.
+    ; warning
+    @(1.9177 mm, 0.9017 mm): Symbol Y401 [Crystal]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(0.2921 mm, 2.1082 mm): Symbol SW401 [SW_DPST]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Analog Devices'.
+    ; warning
+    @(2.1463 mm, 0.8128 mm): Symbol IC404 [MAX32664-SPI-TQFN]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Analog Devices'
+    ; warning
+    @(2.1463 mm, 0.8128 mm): Symbol IC404 [MAX32664-SPI-TQFN]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Fanstel'.
+    ; warning
+    @(0.8128 mm, 2.3495 mm): Symbol M401 [BM15C]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Fanstel'
+    ; warning
+    @(0.8128 mm, 2.3495 mm): Symbol M401 [BM15C]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(1.3335 mm, 2.5019 mm): Symbol SW402 [SW_DPST]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_BGA_Kampi'.
+    ; warning
+    @(3.1496 mm, 0.6731 mm): Symbol IC405 [MAX86141]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Analog Devices'
+    ; warning
+    @(3.1496 mm, 0.6731 mm): Symbol IC405 [MAX86141]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Vishay'.
+    ; warning
+    @(3.4163 mm, 0.7366 mm): Symbol D402 [D_Photo]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Vishay'.
+    ; warning
+    @(3.4163 mm, 0.7747 mm): Symbol D403 [D_Photo]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Osram'.
+    ; warning
+    @(3.6957 mm, 0.6858 mm): Symbol LED401 [SFH7016]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Osram'
+    ; warning
+    @(3.6957 mm, 0.6858 mm): Symbol LED401 [SFH7016]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ST'
+    ; warning
+    @(3.2004 mm, 2.0828 mm): Symbol IC406 [LIS2DS12]
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.8636 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.889 mm, 0.3556 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(1.524 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(1.5494 mm, 0.3556 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(2.1844 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(2.2098 mm, 0.3556 mm): Text Box
+
+***** Sheet /Block Diagram/
+***** Sheet /Project Architecture/
+***** Sheet /Project Architecture/Main/
+[multiple_net_names]: Both +1V8 and VDD are attached to the same items; +1V8 will be used in the netlist
+    ; warning
+    @(1.9177 mm, 2.4384 mm): Symbol #PWR0426 Pin 1 [Power input, Line]
+    @(0.8128 mm, 1.9431 mm): Symbol M401 Hidden pin C8 [VDD, Power input, Line]
+
+***** Sheet /Revision History/
+ ** ERC messages: 25  Errors 0  Warnings 25

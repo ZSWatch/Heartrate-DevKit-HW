@@ -1,0 +1,55 @@
+** Drc report for ZSWatch-Heartrate-DevKit.kicad_pcb **
+** Created on 2025-09-06T09:54:04+0000 **
+
+** Found 15 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_BGA_Kampi'.
+    ; warning
+    @(195.65 mm, 149.625 mm): Footprint IC402
+[lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal' does not match copy in library 'Connector_USB'.
+    ; warning
+    @(186.325 mm, 144.03 mm): Footprint X401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Crystal_Kampi'.
+    ; warning
+    @(213.5 mm, 158.275 mm): Footprint Y401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Analog Devices'.
+    ; warning
+    @(210.43 mm, 157.6 mm): Footprint IC404
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(190.2625 mm, 152.125 mm): Footprint Q401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(217.85 mm, 157.525 mm): Footprint SW401
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(203.7625 mm, 144.45 mm): Footprint IC401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Fanstel'.
+    ; warning
+    @(189.7 mm, 159.075 mm): Footprint M401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(217.85 mm, 147.3 mm): Footprint SW402
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(198.8375 mm, 145.45 mm): Footprint IC403
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Molex'.
+    ; warning
+    @(195.6 mm, 139.15 mm): Footprint X402
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_BGA_Kampi'.
+    ; warning
+    @(211.2 mm, 149.475 mm): Footprint IC405
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Vishay'.
+    ; warning
+    @(202.4 mm, 151.375 mm): Footprint D403
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Osram'.
+    ; warning
+    @(205.2 mm, 151.375 mm): Footprint LED401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Vishay'.
+    ; warning
+    @(208.0 mm, 151.375 mm): Footprint D402
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

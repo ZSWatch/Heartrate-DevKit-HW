@@ -1,0 +1,31 @@
+Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,manf,manf#,mouser#
+1,4,C406 C414 C415 C416,100n,https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD,C_0402_1005Metric,"Unpolarized capacitor, small symbol",KEMET,C0402C104K4RAC7411,80-C0402C104K4R7411
+2,2,C402 C404,1u,https://www.mouser.de/datasheet/2/40/cx5r-2835979.pdf,C_0603_1608Metric,"Unpolarized capacitor, small symbol",KYOCERA AVX,06035C105MAT2A,581-06035C105MAT2A
+3,4,C408 C409 C410 C413,1u,https://www.mouser.de/datasheet/2/40/cx5r-2835979.pdf,C_0402_1005Metric,"Unpolarized capacitor, small symbol",KYOCERA AVX,04023D105KAT2A,581-04023D105KAT2A
+4,1,C401,2u2,https://www.mouser.de/datasheet/2/40/cx5r-2835979.pdf,C_0603_1608Metric,"Unpolarized capacitor, small symbol",KYOCERA AVX,06033D225MAT2A,581-06033D225MAT2A
+5,3,C403 C405 C407,4u7,https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf,C_0603_1608Metric,"Unpolarized capacitor, small symbol",TAIYO YUDEN,LMK107BJ475KA-T,963-LMK107BJ475KA-T
+6,2,C411 C412,10u,https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf,C_0402_1005Metric,"Unpolarized capacitor, small symbol",TAIYO YUDEN,AMK105CBJ106MV-F,963-AMK105CBJ106MV-F
+7,1,C417,22u,https://www.mouser.de/datasheet/2/396/Taiyo_Yuden_2_8_2024_MEASJ063BB5225MF1A01_SS__1_-3395906.pdf,C_0402_1005Metric,"Unpolarized capacitor, small symbol",TAIYO YUDEN,MEASP105CC6226MF1A01,963-MEASP105CC62261A
+8,1,D401,STATUS,https://www.mouser.de/datasheet/2/678/hsmq_c170_t0000_ds100-2498198.pdf,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Light emitting diode,Broadcom / Avago,HSMQ-C170-T0000,630-HSMQ-C170-T0000
+9,2,D402 D403,VEMD8082,https://www.vishay.com/docs/80381/vemd8082.pdf,VEMD808x,Photodiode,Vishay Semiconductors,VEMD8082,78-VEMD8082
+10,1,IC406,LIS2DS12,https://www.st.com/resource/en/datasheet/lis2ds12.pdf,LGA-12_2x2mm_P0.5mm,,STMicroelectronics,LIS2DS12,511-LIS2DS12
+11,1,IC404,MAX32664,https://www.analog.com/media/en/technical-documentation/data-sheets/MAX32664.pdf,MAX32664GTG,,Analog Devices / Maxim Integrated,MAX32664GTGC+,700-MAX32664GTGC+
+12,1,IC405,MAX86141,https://www.analog.com/media/en/technical-documentation/data-sheets/max86140-max86141.pdf,THIN-WLP-20_2.228x1.967mm_P0.4mm,,Analog Devices / Maxim Integrated,MAX86141ENP+T,700-MAX86141ENP+T
+13,1,IC403,MCP73832-2-OT,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf,SOT-23-5,"Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package",Microchip Technology / Atmel,MCP73832T-2ACI/OT,579-MCP73832T-2ACI/OT
+14,1,IC401,MIC5365-1.8,https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf,SOT-23-5,,Microchip Technology,MIC5365-1.8YD5-TR,998- MIC5365-1.8YD5-TR
+15,1,IC402,TPS61240,https://www.ti.com/lit/ds/symlink/tps61240.pdf?ts=1729943439201&ref_url=https%253A%252F%252Fwww.mouser.de%252F,DSBGA-6_0.886x1.288mm_2x3_P0.4mm,,Texas Instruments,TPS61240YFFR,595-TPS61240YFFR
+16,1,L401,1u,https://www.mouser.de/datasheet/2/3/ASMCI_0603-3318216.pdf,L_0603_1608Metric,Inductor,ABRACON,ASMCI-0603-1R0M-T,815-ASMCI-0603-1R0MT
+17,1,LED401,SFH7016,https://look.ams-osram.com/m/1a73f8d425cfcc40/original/SFH-7016.pdf,SFH7016,,ams OSRAM,SFH 7016,720-SFH7016
+18,1,M401,BM15C,https://www.mouser.de/datasheet/2/915/BM15C_2bProduct_2bSpecifications-3555318.pdf,BM15C,nRF54L module with chip antenna,Fanstel,BM15C,308-BM15C
+19,1,Q401,BSS138,https://www.onsemi.com/pub/Collateral/BSS138-D.PDF,SOT-23,"50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23",onsemi / Fairchild,BSS138,512-BSS138
+20,1,R403,0R,~,R_0805_2012Metric,"Resistor, small symbol",Vishay,CRCW08050000Z0EBC,71-CRCW08050000Z0EBC
+21,1,R401,220R,~,R_0402_1005Metric,"Resistor, small symbol",Bourns,CR0402-JW-221GLF,652-CR0402-JW-221GLF
+22,1,R409,4k7,~,R_0402_1005Metric,"Resistor, small symbol",YAGEO,RC0402FR-7D4K7L,603-RC0402FR-7D4K7L
+23,2,R404 R405,5k1,~,R_0402_1005Metric,"Resistor, small symbol",Bourns,CR0402-FX-5101GLF,652-CR0402-FX-5101GLF
+24,4,R402 R406 R407 R408,10k,~,R_0402_1005Metric,"Resistor, small symbol",Bourns,CR0402-JW-103GLF,652-CR0402-JW-103GLF
+25,1,SW402,BTN1,https://www.we-online.com/components/products/datasheet/430182095816.pdf,WS-TASV-6x6,Double Pole Single Throw (DPST) Switch,Wurth Elektronik,430182095816,710-430182095816
+26,1,SW401,RESET,https://www.we-online.com/components/products/datasheet/430182095816.pdf,WS-TASV-6x6,Double Pole Single Throw (DPST) Switch,Wurth Elektronik,430182095816,710-430182095816
+27,1,X402,BATTERY,https://www.molex.com/en-us/products/part-detail-pdf/781710002?display=pdf,78171-0002,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Molex,78171-0002,538-78171-0002
+28,1,X401,CHARGE,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,USB 2.0-only 14P Type-C Receptacle connector,GCT,USB4105-GF-A-120,640-USB4105-GF-A-120
+29,1,X403,DEBUG,http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf,PinHeader_2x05_P1.27mm_Vertical,"Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface",Wurth Elektronik,623310235521,710-623310235521
+30,1,Y401,32kHz,https://www.mouser.de/datasheet/2/122/ECX_1210-2400578.pdf,ECS_ECX-1210,Two pin crystal,ECS,ECS-.327-6-1210-TR,520-.327-6-1210-TR
