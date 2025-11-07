@@ -1772,7 +1772,7 @@
 					(page "7")
 				)
 			)
-			(project "ZSWatch-HeartRate"
+			(project "ZSWatch-Heartrate-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
 					(page "5")
 				)
@@ -1822,7 +1822,7 @@
 					(page "2")
 				)
 			)
-			(project "ZSWatch-HeartRate"
+			(project "ZSWatch-Heartrate-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
 					(page "2")
 				)
@@ -1872,7 +1872,7 @@
 					(page "3")
 				)
 			)
-			(project "ZSWatch-HeartRate"
+			(project "ZSWatch-Heartrate-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
 					(page "3")
 				)
